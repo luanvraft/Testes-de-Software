@@ -15,6 +15,8 @@ class TesteLivro(unittest.TestCase):
         exemplar = Exemplar(1, 10, 1, 2023, "Editora")
         with self.assertRaises(TipoIncorretoException):
             exemplar.livro = 2
+    
+    def test_criar_exemplar_com_(self):
 
 
 # if __name__ == '__main__':
